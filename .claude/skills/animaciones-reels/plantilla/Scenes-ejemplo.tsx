@@ -110,11 +110,11 @@ export const Intro: React.FC<P> = ({ dur, r }) => {
           </div>
         </div>
         <Pop delay={r(1.34)} from="up">
-          <div style={body(46)}>invertir en</div>
+          <div style={body(46)}>Invertir en</div>
         </Pop>
         <Pop delay={r(1.94)} from="up">
           <Highlight delay={r(2.1)} size={74}>
-            propiedades
+            Propiedades
           </Highlight>
         </Pop>
       </Col>
@@ -146,10 +146,10 @@ export const Hook: React.FC<P> = ({ dur }) => {
             </div>
           </div>
           <Pop delay={10} from="up" style={{ marginTop: 50 }}>
-            <div style={body(64)}>claves para</div>
+            <div style={body(64)}>Claves para</div>
           </Pop>
           <Pop delay={15} from="up">
-            <div style={head(130)}>detectarla</div>
+            <div style={head(130)}>Detectarla</div>
           </Pop>
         </Col>
       </AbsoluteFill>
@@ -206,7 +206,7 @@ export const Ubicacion: React.FC<P> = ({ dur, r }) => {
             <Row gap={26}>
               <StepBadge n="01" size={130} delay={2} />
               <Pop delay={6} from="up">
-                <div style={head(110)}>ubicación</div>
+                <div style={head(110)}>Ubicación</div>
               </Pop>
             </Row>
           </AbsoluteFill>
@@ -226,7 +226,7 @@ export const Ubicacion: React.FC<P> = ({ dur, r }) => {
             <Col gap={26} style={{ alignItems: "stretch" }}>
               <Row gap={20} style={{ justifyContent: "center" }}>
                 <PinIcon size={70} />
-                <div style={head(64)}>ubicación</div>
+                <div style={head(64)}>Ubicación</div>
               </Row>
               {items.map((it) => (
                 <ItemRow key={it.label} delay={r(it.t) - fullEnd + 2} label={it.label} />
@@ -274,7 +274,7 @@ export const Precio: React.FC<P> = ({ dur, r }) => {
   return (
     <Card dur={dur} width={640}>
       <Col gap={30}>
-        <StepHeader n="02" title="precio" />
+        <StepHeader n="02" title="Precio" />
         <div style={{ position: "relative", height: 300, width: 400, display: "flex", justifyContent: "center" }}>
           <Pop delay={10}>
             <div style={{ transform: `rotate(${swing}deg)`, transformOrigin: "20% 20%" }}>
@@ -291,7 +291,7 @@ export const Precio: React.FC<P> = ({ dur, r }) => {
             }}
           >
             <Row gap={12} style={{ background: YELLOW, borderRadius: 18, padding: "12px 26px", border: `5px solid ${DARK}` }}>
-              <div style={head(56)}>justo</div>
+              <div style={head(56)}>Justo</div>
               <CheckBadge size={52} a={DARK} b={YELLOW} />
             </Row>
           </div>
@@ -309,7 +309,7 @@ export const Rentabilidad: React.FC<P> = ({ dur, r }) => {
   return (
     <Card dur={dur} width={760}>
       <Col gap={30}>
-        <StepHeader n="03" title="rentabilidad" />
+        <StepHeader n="03" title="Rentabilidad" />
         <div style={{ position: "relative", width: 480, height: 260 }}>
           <Row gap={26} style={{ alignItems: "flex-end", height: 260, justifyContent: "center" }}>
             {bars.map((h, i) => {
@@ -357,10 +357,10 @@ export const Rentabilidad: React.FC<P> = ({ dur, r }) => {
         </div>
         <Row gap={18}>
           <Pop delay={r(25.12)}>
-            <div style={{ ...head(44), background: YELLOW, borderRadius: 999, padding: "14px 30px" }}>+ ingresos</div>
+            <div style={{ ...head(44), background: YELLOW, borderRadius: 999, padding: "14px 30px" }}>+ Ingresos</div>
           </Pop>
           <Pop delay={r(28.78)}>
-            <div style={{ ...head(44, WHITE), background: DARK, borderRadius: 999, padding: "14px 30px" }}>− gastos</div>
+            <div style={{ ...head(44, WHITE), background: DARK, borderRadius: 999, padding: "14px 30px" }}>− Gastos</div>
           </Pop>
         </Row>
       </Col>
@@ -378,7 +378,7 @@ export const CapRate: React.FC<P> = ({ dur, r }) => {
         <Col gap={20}>
           <StepBadge n="04" size={150} delay={2} inverted />
           <Pop delay={6} from="up" style={{ marginTop: 20 }}>
-            <div style={head(160)}>cap rate</div>
+            <div style={head(160)}>Cap Rate</div>
           </Pop>
           <Pop delay={10}>
             <div style={{ transform: `rotate(${spin}deg)`, margin: "30px 0" }}>
@@ -386,7 +386,7 @@ export const CapRate: React.FC<P> = ({ dur, r }) => {
             </div>
           </Pop>
           <Pop delay={r(31.98)} from="up">
-            <div style={body(60)}>tasa de capitalización</div>
+            <div style={body(60)}>Tasa de capitalización</div>
           </Pop>
         </Col>
       </AbsoluteFill>
@@ -406,7 +406,7 @@ export const Formula: React.FC<P> = ({ dur, r }) => {
             <PercentIcon size={110} />
           </Pop>
           <Pop delay={6}>
-            <div style={head(46)}>cap rate</div>
+            <div style={head(46)}>Cap Rate</div>
           </Pop>
         </Col>
         <Pop delay={8}>
@@ -415,13 +415,13 @@ export const Formula: React.FC<P> = ({ dur, r }) => {
         <Col gap={14}>
           <Pop delay={r(35.36)} from="up">
             <Highlight delay={r(35.6)} size={50}>
-              renta anual neta
+              Renta anual neta
             </Highlight>
           </Pop>
           <div style={{ width: 470 * line, height: 8, borderRadius: 8, background: DARK }} />
           <Pop delay={r(37.58)} from="up">
             <Highlight delay={r(37.8)} size={50}>
-              precio de compra
+              Precio de compra
             </Highlight>
           </Pop>
         </Col>
@@ -439,10 +439,10 @@ export const Comparar: React.FC<P> = ({ dur, r }) => {
     <Card dur={dur} width={860}>
       <Col gap={24}>
         <Pop delay={4} from="up">
-          <div style={body(46)}>comparamos</div>
+          <div style={body(46)}>Comparamos</div>
         </Pop>
         <Pop delay={8} from="up">
-          <div style={head(72)}>propiedades</div>
+          <div style={head(72)}>Propiedades</div>
         </Pop>
         <Row gap={50} style={{ alignItems: "flex-end", marginTop: 20 }}>
           {hs.map((h, i) => {
@@ -481,11 +481,11 @@ export const Comparar: React.FC<P> = ({ dur, r }) => {
         </Row>
         <Pop delay={r(42.6)}>
           <div style={{ ...head(44, YELLOW), background: DARK, borderRadius: 999, padding: "14px 34px" }}>
-            mejor rentabilidad
+            Mejor rentabilidad
           </div>
         </Pop>
         <Pop delay={r(44.06)} from="up">
-          <div style={body(40)}>en relación al precio</div>
+          <div style={body(40)}>En relación al precio</div>
         </Pop>
       </Col>
     </Card>
@@ -507,11 +507,11 @@ export const Estrategia: React.FC<P> = ({ dur }) => {
         </Pop>
         <Col gap={8} style={{ alignItems: "flex-start" }}>
           <Pop delay={5} from="up">
-            <div style={body(42)}>la clave es la</div>
+            <div style={body(42)}>La clave es la</div>
           </Pop>
           <Pop delay={9} from="up">
             <Highlight delay={14} size={70}>
-              estrategia
+              Estrategia
             </Highlight>
           </Pop>
         </Col>
@@ -564,7 +564,7 @@ export const Cierre: React.FC<P> = ({ dur, r }) => {
             ))}
           </div>
           <Pop delay={30} from="up">
-            <div style={{ ...body(64), opacity: 1 - s }}>las personas primero</div>
+            <div style={{ ...body(64), opacity: 1 - s }}>Las personas primero</div>
           </Pop>
         </Col>
       </div>

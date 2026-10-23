@@ -57,6 +57,9 @@ Estilo que gustó (el primero, dorado/fino/minimalista, **NO gustó: "muy simple
   (ej. "4 claves", pin con ondas tipo radar, "cap rate", cierre con nombre de marca).
 - **Texto en dos pesos**: línea chica Montserrat Light + palabra clave grande en la tipografía
   de la marca en bold, a veces con **resaltado de color que barre** detrás.
+- **Mayúscula inicial en todos los textos** (títulos, chips, líneas chicas): "Ubicación", "Precio justo",
+  "Claves para" / "Detectarla". Términos técnicos con mayúscula en cada palabra: **"Cap Rate"**.
+  Nunca todo en minúscula.
 - Cierre: nombre de marca + slogan a pantalla completa que se achica a banner superior.
 - Zona segura: gráficos en el tercio superior; no tapar la cara; dejar abajo libre para subtítulos
   de CapCut y la UI de Instagram.
