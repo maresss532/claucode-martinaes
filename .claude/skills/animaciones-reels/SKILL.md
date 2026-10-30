@@ -60,6 +60,11 @@ Estilo que gustó (el primero, dorado/fino/minimalista, **NO gustó: "muy simple
 - **Mayúscula inicial en todos los textos** (títulos, chips, líneas chicas): "Ubicación", "Precio justo",
   "Claves para" / "Detectarla". Términos técnicos con mayúscula en cada palabra: **"Cap Rate"**.
   Nunca todo en minúscula.
+- **Colores planos, nunca degradés** (ni en fondos, ni en botones, ni viñetas radiales). Si Martina pasa
+  una paleta (ej. link de coolors.co), usar **solo esos colores** + blanco + un oscuro para texto.
+  No sumar colores extra: "demasiado colorido" fue una corrección. Ver `referencias/viaje-familias.md`.
+- Revisar que cada beneficio del guion quede en la animación del ítem que corresponde
+  (ej. "con entradas incluidas" aplicaba a Parque de la Costa **y** Temaikèn).
 - Cierre: nombre de marca + slogan a pantalla completa que se achica a banner superior.
 - Zona segura: gráficos en el tercio superior; no tapar la cara; dejar abajo libre para subtítulos
   de CapCut y la UI de Instagram.
